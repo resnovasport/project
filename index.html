@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resnova Sport</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header class="bg-dark text-center py-3">
+        <div class="container position-relative">
+            <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./immagini/Logo.jpg" alt="Resnova Sport Logo" width="120">
+                </a>
+
+                <!-- Bottone del menu mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu di navigazione -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./about.html">Chi Siamo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.html">Contatti</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container text-center my-5">
+        <section id="home" class="hero">
+            <h1>Benvenuto su Resnova Sport</h1>
+            <p>Trova l'attrezzatura perfetta per ogni sport.</p>
+            <a href="./shop.html" class="cta-button">Esplora il Negozio</a>
+        </section>
+
+        <section id="shop" class="products mt-5">
+            <h2>Prodotti in Evidenza</h2>
+            <div class="row productGrid justify-content-center">
+                <!-- I prodotti verranno aggiunti dinamicamente qui tramite JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center bg-dark text-light py-3">
+        <p>&copy; 2025 Resnova - Tutti i diritti riservati</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
